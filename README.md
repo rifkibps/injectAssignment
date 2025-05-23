@@ -11,9 +11,15 @@ fetch(scriptUrl)
     const scriptElement = document.createElement('script');
     scriptElement.innerHTML = scriptContent;
     document.body.appendChild(scriptElement);
-    console.log(execute()); 
+
   })
   .catch(error => {
     console.error('Gagal memuat skrip:', error);
   });
+```
+
+2. **Jalankan Execute: **
+
+```
+console.log(execute)
 ```
